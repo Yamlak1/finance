@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173"
+    origin: "https://finance-frontend-dvbchhdyp-yamlak1s-projects.vercel.app"
   })
 );
 app.use(express.json());
